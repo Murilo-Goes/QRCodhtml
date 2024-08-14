@@ -1,0 +1,75 @@
+body { background-image: url(../images/Lovepik_com-361403331-stunning-4k-space-hd-wallpapers-breathtaking-backgrounds.jpg);
+
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       background-attachment: fixed; 
+       min-height: 100vh;
+       font: color #da0e0e;
+       display: flex
+   
+
+
+}
+
+div.bloco {
+    
+    background-color: rgba(255, 255, 255, 0.284);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 1300px;
+    height: 980px;
+    display: flex;
+    margin-left: 450px;
+    margin-top: 100px;
+    border: #ab2525;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+
+div.bloco2 {
+    width: 340px; /* Ajuste o tamanho conforme necessário */
+    height: 500px; /* Ajuste o tamanho conforme necessário */
+    background-color: aliceblue;
+    position: absolute; /* Permite posicionar o bloco sobre o bloco principal */
+    top: 50px; /* Ajusta a posição do bloco2 dentro do bloco principal */
+    left: 50px; /* Ajusta a posição do bloco2 dentro do bloco principal */
+    z-index: 2; /* Garante que o bloco2 fique acima do bloco principal */
+    border-radius: 40px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 750px;
+    margin-top: 300px;
+}
+
+
+.imagenqr {
+    width: 280px;   /* Define a largura da imagem */
+    height: auto;   /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Opcional: arredonda os cantos da imagem */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Opcional: adiciona uma sombra */
+    transition: all 0.3s ease; /* Opcional: adiciona uma transição suave para mudanças */
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+p.texto {
+    font-size: 20px;
+    color: #000000;
+text-align: center; 
+    font-weight: bold;
+}
+
+p.texto2 {
+    font-size: 13px;
+    color: #615656;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 5px;
+    font-style:oblique
